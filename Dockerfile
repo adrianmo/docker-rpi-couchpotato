@@ -22,4 +22,4 @@ EXPOSE 5050
 WORKDIR /opt/CouchPotatoServer
 
 # Run CouchPotato
-ENTRYPOINT ["python", "CouchPotato.py"]
+ENTRYPOINT ["python", "CouchPotato.py", "--config_file", "/config/CouchPotato.cfg", "--data_dir", "/config/data", "--console_log"]

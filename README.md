@@ -6,7 +6,7 @@
 
 You can run the image with the following command.
 
-    docker run -d -p 5050:5050 -v /path/to/movies:/movies --restart=always --name couchpotato adrianmo/rpi-couchpotato
+    docker run -d -p 5050:5050 -v /path/to/movies:/movies -v /path/to/config:/config --restart=always --name couchpotato adrianmo/rpi-couchpotato
 
 Note the `--restart=always` parameter, that will restart the Docker container every time it stops. We need that because CouchPotato will update itself periodically and restart the process, causing the Docker container to stop.
 
