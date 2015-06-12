@@ -6,6 +6,7 @@ MAINTAINER Adrian Moreno <adrian.moreno@devcows.com>
 
 # Update and upgrade
 RUN apt-get update
+RUN apt-get -y upgrade
 
 # Install prerequisites
 RUN apt-get install -y python git-core
@@ -18,7 +19,7 @@ RUN cd /opt && \
 EXPOSE 5050
 
 # Set working directory
-WORKDIR /opt
+WORKDIR /opt/CouchPotatoServer
 
 # Run CouchPotato
-ENTRYPOINT ["python", "CouchPotatoServer/CouchPotato.py"]
+ENTRYPOINT ["python", "CouchPotato.py"]
