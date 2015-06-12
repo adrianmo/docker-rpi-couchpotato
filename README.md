@@ -13,7 +13,7 @@ Note the `--restart=always` parameter, that will restart the Docker container ev
 
 ## Build
 
-You can **optionally** build the image `adrianmo/rpi-couchpotato` with the latest CouchPotato version. To do that just execute the following command once you have checked out the [source repository](https://github.com/adrianmo/rpi-couchpotato-docker).
+You can **optionally** build the image `adrianmo/rpi-couchpotato` with the latest CouchPotato sources. To do that just execute the following command once you have checked out the [source repository](https://github.com/adrianmo/rpi-couchpotato-docker).
 
     docker build -t adrianmo/rpi-couchpotato .
 
