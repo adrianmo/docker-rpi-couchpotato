@@ -1,6 +1,6 @@
 # docker-rpi-couchpotato
 
-[Docker image](https://registry.hub.docker.com/u/adrianmo/rpi-couchpotato/) for running CouchPotato in a Raspberry PI.
+[Docker image](https://registry.hub.docker.com/u/adrianmo/rpi-couchpotato/) for running CouchPotato on a Raspberry PI.
 
 ## Usage
 
