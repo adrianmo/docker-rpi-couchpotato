@@ -1,5 +1,5 @@
 # Base image
-FROM resin/rpi-raspbian
+FROM resin/rpi-raspbian:wheezy
 
 # Maintainer info
 MAINTAINER Adrian Moreno <adrian.moreno@devcows.com>
